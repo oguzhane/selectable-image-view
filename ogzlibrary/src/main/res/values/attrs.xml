@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SelectableImageView">
+        <attr name="siv_border" format="boolean"/>
+        <attr name="siv_borderColor" format="color"/>
+        <attr name="siv_borderWidth" format="dimension"/>
+
+        <attr name="siv_selectable" format="boolean"/>
+        <attr name="siv_selectColor" format="color"/>
+        <attr name="siv_selectStrokeColor" format="color"/>
+        <attr name="siv_selectStrokeWidth" format="dimension"/>
+
+        <attr name="siv_selectImageSrc" format="reference"/>
+        <attr name="siv_selectImageHeight" format="dimension"/>
+        <attr name="siv_selectImageWidth" format="dimension"/>
+
+        <attr name="siv_selectImageFilter" format="color"/>
+        <attr name="siv_selectImageTransparency" format="integer"/>
+
+
+        <attr name="siv_radiusDx" format="dimension"/>
+        <attr name="siv_radiusDy" format="dimension"/>
+
+    </declare-styleable>
+
+
+
+    <declare-styleable name="SelectableImageViewStyle">
+        <attr name="selectableImageViewDefault" format="reference"/>
+    </declare-styleable>
+
+</resources>

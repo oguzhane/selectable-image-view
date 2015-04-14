@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+<com.oguzhane.view.SelectableImageView
+    android:id="@+id/siv_gender"
+    android:layout_width="128dp"
+    android:layout_height="128dp"
+    android:src="@drawable/user_female_128"
+
+    app:siv_radiusDy="128dp"
+    app:siv_radiusDx="128dp"
+
+    app:siv_border="true"
+    app:siv_borderColor="#ff000000"
+    app:siv_borderWidth="3dp"
+
+    app:siv_selectStrokeWidth="3dp"
+    app:siv_selectStrokeColor="#ff000000"
+    app:siv_selectColor="#64000000"
+
+    app:siv_selectImageSrc="@drawable/checkmark_64"
+    app:siv_selectImageWidth="64dp"
+    app:siv_selectImageHeight="64dp"
+    app:siv_selectImageFilter="#fff40025"
+    app:siv_selectImageTransparency="255"
+
+    android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
