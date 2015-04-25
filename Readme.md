@@ -56,7 +56,7 @@ Usage
 ```
 
 ### Maven
-*Coming soon Maven repo*
+*Coming soon Maven module*
 
 License
 --------
